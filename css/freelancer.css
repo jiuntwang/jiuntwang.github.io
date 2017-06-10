@@ -554,29 +554,25 @@ div#maincontent {
   outline: none;
 }
 
-.filter-button
-{
+.filter-button {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 2px solid #18BC9C;
     border-radius: 5px;
     text-align: center;
-    color: #42B32F;
-    margin-bottom: 30px;
+    color: #18BC9C;
+    margin: 0 5px 20px 0;
 
 }
-.filter-button:hover
-{
+.filter-button:hover {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 2px solid #18BC9C;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
-
+    background-color: #18BC9C;
 }
-.btn-default:active .filter-button:active
-{
-    background-color: #42B32F;
+.btn-default:active .filter-button:active{
+    background-color: #18BC9C;
     color: white;
 }
 
