@@ -3,8 +3,14 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/*CSS Styles modified by Jiun Ting Wang from original template.*/
+
+/*-----Typography-----*/
+
+@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   /*background-color: whitesmoke;*/
 }
@@ -27,9 +33,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Heebo', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
 }
 hr.star-light,
 hr.star-primary {
@@ -82,9 +88,9 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-family: 'Heebo', Helvetica, Arial, sans-serif;
+  text-transform: initial;
+  font-weight: bold;
   font-size: 2em;
 }
 header .intro-text .skills {
@@ -103,9 +109,13 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+/*-----Typography END-----*/
+
+
+/*-----Nav Bar-----*/
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Heebo', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -121,6 +131,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
+  font-size: 1.25em;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
@@ -174,12 +185,18 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+/*-----Nav Bar END-----*/
+
+/*-----Portfolio-----*/
 section {
   padding: 100px 0;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
+}
+section h3 {
+  padding-bottom: 10px;
 }
 section.success {
   background: #18BC9C;
@@ -243,6 +260,11 @@ section.success {
     margin: 0 0 30px;
   }
 }
+/*-----Portfolio END-----*/
+
+
+/*-----Contact Form-----*/
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -292,6 +314,10 @@ section.success {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+/*-----Contact Form END-----*/
+
+
+/*-----Footer-----*/
 footer {
   color: white;
 }
@@ -434,6 +460,10 @@ fieldset[disabled] .btn-success.active {
   border-radius: 100%;
   line-height: 28px;
 }
+/*-----Footer END-----*/
+
+
+/*-----Modal Content-----*/
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -495,6 +525,10 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+/*-----Modal Content END-----*/
+
+
+/*-----Misc----*/
 #skipnav a {
   padding: 6px;
   position: absolute;
@@ -519,3 +553,4 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+/*-----Misc END----*/
