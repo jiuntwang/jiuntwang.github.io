@@ -103,13 +103,16 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Graphic Design</h3>
-                </div>
+            <div align="center">
+                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="design">Graphic Design</button>
+                <button class="btn btn-default filter-button" data-filter="web-dev">Web Development</button>
+                <button class="btn btn-default filter-button" data-filter="marketing">Marketing</button>
+                <button class="btn btn-default filter-button" data-filter="other">Other</button>
             </div>
+            <br/>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item filter design">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -121,7 +124,7 @@
                         <img src="img/portfolio/icon-Giraffe-Tie-Club.jpg" class="img-responsive" alt="logo designs">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item filter design">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -133,7 +136,7 @@
                         <img src="img/portfolio/icon-agoura-chargers.jpg" class="img-responsive" alt="apparel graphic">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item filter other">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -145,7 +148,7 @@
                         <img src="img/portfolio/icon-print-design.jpg" class="img-responsive" alt="print design">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item filter marketing">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -806,6 +809,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
+    <!--Portfolio JavaScript-->
+    <script src="js/portfolio.js"></script>
 
 </body>
 
