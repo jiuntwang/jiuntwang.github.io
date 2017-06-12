@@ -8,7 +8,7 @@ Work in progress.
 * Responsive porfolio grid with hover effects
 * Filtering category buttons for portfolio
 * Full page potfolio item modals
-* Working PHP contact form
+* Embedded Twitter feed
 * Imported Google Fonts
 * Tracked with Google Analytics
 
