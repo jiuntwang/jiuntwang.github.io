@@ -30,41 +30,21 @@ h6 {
   text-transform: uppercase;
   font-weight: bold;
 }
-hr.star-light,
-hr.star-primary {
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px;
-}
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
-}
-hr.star-light {
-  border-color: white;
-}
-hr.star-light:after {
-  background-color: #188abc;
-  color: white;
-}
-hr.star-primary {
-  border-color: #2C3E50;
-}
-hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
-}
+
 .img-centered {
   margin: 0 auto;
+}
+.line-break {
+  background: #188abc;
+  width: 100px;
+  height: 1px;
+  margin: 15px auto;
+}
+.line-break-2 {
+  background: white;
+  width: 100px;
+  height: 1px;
+  margin: 15px auto;
 }
 /*-----Typography END-----*/
 
@@ -76,13 +56,9 @@ hr.star-primary:after {
 /*-----Header-----*/
 
 header {
+  background-color: #188abc; 
   text-align: center;
-  background-image: url("../img/background-pattern.jpg");
-  min-height: 600px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-
+  min-height: 400px;
 }
 header .container {
   padding-top: 100px;
@@ -92,27 +68,13 @@ header img {
   display: block;
   margin: 0 auto 20px;
 }
-header .intro-text .name {
-  display: block;
-  font-family: 'Heebo', Helvetica, Arial, sans-serif;
-  text-transform: initial;
-  font-weight: bold;
-  font-size: 2em;
-}
-header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
+header .intro-text {
+  color: white;
 }
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
-  }
-  header .intro-text .name {
-    font-size: 4.75em;
-  }
-  header .intro-text .skills {
-    font-size: 1.75em;
   }
 }
 
@@ -197,10 +159,6 @@ header .intro-text .skills {
 /*-----Portfolio-----*/
 section {
   padding: 100px 0;
-}
-section h2 {
-  margin: 0;
-  font-size: 3em;
 }
 section h3 {
   padding-bottom: 10px;
