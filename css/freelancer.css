@@ -55,26 +55,21 @@ h6 {
 /*-----Header-----*/
 
 header {
-  background-color: #188abc; 
-  text-align: center;
-  min-height: 450px;
+  /*background-color: #188abc; */
+  background-image: url('/img/seattle-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 600px;
 }
 header .container {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 50px;
-}
-header img {
-  display: block;
-  margin: 0 auto 20px;
 }
 header .intro-text {
   color: white;
-}
-@media (min-width: 768px) {
-  header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
-  }
+  text-align: center;
+  margin: 100px auto;
 }
 
 /*-----Header END-----*/
@@ -155,11 +150,11 @@ section.success {
   display: block;
   position: relative;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: #188abc;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -169,7 +164,7 @@ section.success {
   -moz-transition: all ease 0.5s;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
@@ -191,15 +186,15 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
+
 /*-----Portfolio END-----*/
 
 
 /*-----About Me-----*/
+section.success {
+    background: #188abc;
+
+}
 .btn-outline { 
     font-size: 16px;
 }
