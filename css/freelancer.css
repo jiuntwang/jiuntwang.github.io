@@ -1,5 +1,4 @@
-/*-----Typography-----*/
-
+/*-----General Styles and Typography-----*/
 @import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -51,15 +50,10 @@ h6 {
     color: #188abc;
     margin: 0;
 }
-/*-----Typography END-----*/
-
-
-
-
+/*-----General Styles and Typography END-----*/
 
 
 /*-----Header-----*/
-
 header {
   /*background-color: #188abc; */
   background-image: url('/img/seattle-bg.jpg');
@@ -192,17 +186,18 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
-
 /*-----Portfolio END-----*/
 
 
 /*-----About Me-----*/
 section.success {
     background: #188abc;
-
 }
 .btn-outline { 
     font-size: 16px;
+}
+.profile-pic {
+  padding-bottom: 20px;
 }
 /*-----About Me END-----*/
 
@@ -211,11 +206,6 @@ section.success {
 #contact-media.row div {
   margin-top: 30px;
 }
-
-/*#contact-text p {
-  padding: 15px;
-}*/
-
 /*-----Contact Form END-----*/
 
 
@@ -223,16 +213,10 @@ section.success {
 footer {
   color: white;
 }
-/*footer h3 {
-  margin-bottom: 20px;
-}*/
 footer .footer-above {
   padding: 20px;
   background-color: #188abc;
 }
-/*footer .footer-col {
-  margin-bottom: 40px;
-}*/
 footer .footer-below {
   padding: 10px 0;
   background-color: #f5f5f5;
@@ -254,90 +238,6 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
-/*.btn-primary {
-  color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
-  font-weight: 700;
-}*/
-/*.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #1a242f;
-  border-color: #161f29;
-}
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  background-image: none;
-}
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
-}
-.btn-primary .badge {
-  color: #2C3E50;
-  background-color: white;
-}
-.btn-success {
-  color: white;
-  background-color: #188abc;
-  border-color: #188abc;
-  font-weight: 700;
-}*/
-/*.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
-  color: white;
-  background-color: #128f76;
-  border-color: #11866f;
-}
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
-  background-image: none;
-}
-.btn-success.disabled,
-.btn-success[disabled],
-fieldset[disabled] .btn-success,
-.btn-success.disabled:hover,
-.btn-success[disabled]:hover,
-fieldset[disabled] .btn-success:hover,
-.btn-success.disabled:focus,
-.btn-success[disabled]:focus,
-fieldset[disabled] .btn-success:focus,
-.btn-success.disabled:active,
-.btn-success[disabled]:active,
-fieldset[disabled] .btn-success:active,
-.btn-success.disabled.active,
-.btn-success[disabled].active,
-fieldset[disabled] .btn-success.active {
-  background-color: #188abc;
-  border-color: #188abc;
-}
-.btn-success .badge {
-  color: #188abc;
-  background-color: white;
-}*/
 .btn-social {
   display: inline-block;
   height: 50px;
@@ -393,9 +293,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
-
 }
-
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
@@ -469,7 +367,6 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
-
 .filter-button {
     background: #f5f5f5;
     display: inline-block;
@@ -480,7 +377,6 @@ div#maincontent {
     text-align: center;
     margin: 0 5px 20px 0;
     border-color: transparent;
-
 }
 .filter-button:hover,
 .filter-button:active,
@@ -495,5 +391,4 @@ div#maincontent {
     margin: 0 5px 20px 0;
     border-color: transparent;
 }
-
 /*-----Misc END----*/
